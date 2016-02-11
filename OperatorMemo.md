@@ -15,6 +15,7 @@
 
 ### ORDER BY
 mongoDB内ではsortを使う。
+
 ```
 db.[コレクション名].find().sort({x : n});  
 ```
@@ -44,6 +45,7 @@ sort内の第二引数で指定する値は-1でdesc(降順)で、1でasc(昇順
 
 ### LIMIT
 mongoDB内でもlimitを使う。
+
 ```
 db.[コレクション名].find().limit(n);
 ```
