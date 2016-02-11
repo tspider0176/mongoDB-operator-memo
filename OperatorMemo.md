@@ -15,7 +15,6 @@
 
 ### ORDER BY
 mongoDB内ではsortを使う。
-
 ```
 db.[コレクション名].find().sort({x : n});  
 ```
@@ -45,7 +44,6 @@ sort内の第二引数で指定する値は-1でdesc(降順)で、1でasc(昇順
 
 ### LIMIT
 mongoDB内でもlimitを使う。
-
 ```
 db.[コレクション名].find().limit(n);
 ```
@@ -62,7 +60,6 @@ nには上限に設定したい値を指定できる。例えば、limit(2)を�
 
 ### BETWEEN
 mongoDBではfindの引数で条件式を指定する。
-
 ```
 db.[コレクション名].find({[対象としたいカラム] : {"$gt": n, "$lt": m}});
 ```
@@ -84,7 +81,6 @@ db.test.find({"id" : {"$gt": 2, "$lte" : 4}});
 
 ### IN
 mongoDBではfindの引数内で$in演算子を用いる。
-
 ```
 db.[コレクション名].find([対象としたいカラム] : {$in : [n1, n2, n3, ...]});
 ```
@@ -102,7 +98,6 @@ db.test.find({"id" : {$in : [1, 3, 4]}});
 
 ### OFFSET
 mongoDB内ではskipを使う。
-
 ```
 db.[コレクション名].find().skip(n);
 ```
