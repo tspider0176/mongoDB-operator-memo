@@ -124,7 +124,7 @@ db.test.find().sort({"id":1}).skip(1).limit(2);
 以上の例ではid順にソートされたレコードのうち、中間に位置する二つのみが返って来ていることがわかる。
 
 ### 参考URL
-http://qiita.com/ANTON072/items/e0534daa4b2fb0f553eb
-http://taka512.hatenablog.com/entry/20110220/1298195574
-http://www.cuspy.org/diary/2012-04-17/the-little-mongodb-book-ja.pdf
-https://docs.mongodb.org/v3.0/reference/operator/query-comparison/
+http://qiita.com/ANTON072/items/e0534daa4b2fb0f553eb  
+http://taka512.hatenablog.com/entry/20110220/1298195574  
+http://www.cuspy.org/diary/2012-04-17/the-little-mongodb-book-ja.pdf  
+https://docs.mongodb.org/v3.0/reference/operator/query-comparison/  
